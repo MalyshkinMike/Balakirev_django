@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="first_file + pip install django">
-      <change afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/studingsite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/studingsite/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/studingsite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/studingsite/wsgi.py" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="first django app added">
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +35,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728312189720</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first django app added">
+      <option name="closed" value="true" />
+      <created>1728404586124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728404586125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_file + pip install django" />
-    <option name="LAST_COMMIT_MESSAGE" value="first_file + pip install django" />
+    <MESSAGE value="first django app added" />
+    <option name="LAST_COMMIT_MESSAGE" value="first django app added" />
   </component>
 </project>
