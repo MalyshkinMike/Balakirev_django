@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="1.6 Динамические URL. Пользовательские конвертеры">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="1.7 GET и POST-запросы. Обработчики исключений запросов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728413349199</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.7 GET и POST-запросы. Обработчики исключений запросов">
+      <option name="closed" value="true" />
+      <created>1728583889894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728583889894</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +151,7 @@
     <MESSAGE value="1.4 Маршрутизация и функции представления" />
     <MESSAGE value="1.5 Отладка проекта Django в PyCharm" />
     <MESSAGE value="1.6 Динамические URL. Пользовательские конвертеры" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6 Динамические URL. Пользовательские конвертеры" />
+    <MESSAGE value="1.7 GET и POST-запросы. Обработчики исключений запросов" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.7 GET и POST-запросы. Обработчики исключений запросов" />
   </component>
 </project>
