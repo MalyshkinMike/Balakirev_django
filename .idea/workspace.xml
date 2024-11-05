@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="2.3 Стандартные шаблонные фильтры">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="2.4 Теги шаблонов. Теги if и for">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730827058773</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2.4 Теги шаблонов. Теги if и for">
+      <option name="closed" value="true" />
+      <created>1730828033274</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730828033274</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +253,7 @@
     <MESSAGE value="Введение в шаблоны (Django Template Language, DTL)" />
     <MESSAGE value="2.2 Передача данных (переменных) в шаблоны" />
     <MESSAGE value="2.3 Стандартные шаблонные фильтры" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.3 Стандартные шаблонные фильтры" />
+    <MESSAGE value="2.4 Теги шаблонов. Теги if и for" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.4 Теги шаблонов. Теги if и for" />
   </component>
 </project>
