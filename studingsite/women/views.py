@@ -28,7 +28,7 @@ def index(request): # HTTPRequest
     return render(request, 'women/index.html', context=data)
 
 def about(request):
-    return render(request, 'women/about.html', {'title' : 'О сайте'})
+    return render(request, 'women/about.html', {'title': 'О сайте', 'menu': menu})
 
 def addpage(request):
     return HttpResponse("Добавление статьи")
