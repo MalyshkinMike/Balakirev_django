@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="2.6 Наследование шаблонов. Тег include">
-      <change afterPath="$PROJECT_DIR$/studingsite/women/static/women/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/static/women/images/blockquote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/static/women/images/btn_yt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/static/women/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/static/women/images/main.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/static/women/images/share_yt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/static/women/images/smallmenu.png" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="2.7 Подключение статических файлов">
+      <change afterPath="$PROJECT_DIR$/studingsite/women/templates/women/list_categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/women/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/women/templatetags/women_tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730889940845</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2.7 Подключение статических файлов">
+      <option name="closed" value="true" />
+      <created>1730920712294</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730920712294</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +290,7 @@
     <MESSAGE value="2.4 Теги шаблонов. Теги if и for" />
     <MESSAGE value="2.5 Шаблонный тег url" />
     <MESSAGE value="2.6 Наследование шаблонов. Тег include" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.6 Наследование шаблонов. Тег include" />
+    <MESSAGE value="2.7 Подключение статических файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.7 Подключение статических файлов" />
   </component>
 </project>
