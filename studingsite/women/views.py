@@ -28,7 +28,7 @@ cats_db = [
 
 # Create your views here.
 def index(request):
-    posts = Women.objects.filter(is_published=True)
+    posts = Women.published.all()
     data = {'title': 'Главная страница',
             'menu': menu,
             'posts': posts,
