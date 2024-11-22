@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="4.1 Типы связей между моделями">
+      <change afterPath="$PROJECT_DIR$/studingsite/women/migrations/0005_category_women_cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/women/migrations/0006_alter_women_cat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +43,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Studing/JetBrainsProjects/pythonProject/studingsite/templates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studing/JetBrainsProjects/pythonProject/studingsite&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite" />
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\templates" />
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\templates\women" />
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\static\women\images" />
@@ -284,7 +285,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732213291164</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="3.7 Создание пользовательского менеджера модели">
+      <option name="closed" value="true" />
+      <created>1732214684840</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1732214684840</updated>
+    </task>
+    <task id="LOCAL-00025" summary="3.7 Создание пользовательского менеджера модели">
+      <option name="closed" value="true" />
+      <created>1732214830191</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1732214830191</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,6 +370,8 @@
     <MESSAGE value="3.5 Сортировка, изменение и удаление записей" />
     <MESSAGE value="3.5 Сортировка, изменение и удаление записей" />
     <MESSAGE value="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()" />
+    <MESSAGE value="4.1 Типы связей между моделями" />
+    <MESSAGE value="4.1 Типы связей между моделями" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.1 Типы связей между моделями" />
   </component>
 </project>
