@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="4.3 ORM-команды для связи many-to-one">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="4.4 Отображение постов по рубрикам">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/list_categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/list_categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templatetags/women_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templatetags/women_tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732377031484</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="4.4 Отображение постов по рубрикам">
+      <option name="closed" value="true" />
+      <created>1732381376199</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1732381376199</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +370,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first django app added" />
     <MESSAGE value="1.4 Маршрутизация и функции представления" />
     <MESSAGE value="1.5 Отладка проекта Django в PyCharm" />
     <MESSAGE value="1.6 Динамические URL. Пользовательские конвертеры" />
@@ -391,6 +394,7 @@
     <MESSAGE value="4.1 Типы связей между моделями" />
     <MESSAGE value="4.2 Создание связи many-to-one (многие к одному)" />
     <MESSAGE value="4.3 ORM-команды для связи many-to-one" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.3 ORM-команды для связи many-to-one" />
+    <MESSAGE value="4.4 Отображение постов по рубрикам" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.4 Отображение постов по рубрикам" />
   </component>
 </project>
