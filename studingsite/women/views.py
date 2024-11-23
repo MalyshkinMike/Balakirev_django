@@ -4,8 +4,9 @@ from django.template.context_processors import request
 from django.urls import reverse
 from django.template.loader import render_to_string
 from django.template.defaultfilters import slugify
+from unicodedata import category
 
-from .models import Women
+from .models import Women, Category
 
 menu = [{'title': "О сайте", 'url_name': 'about'},
         {'title': "Добавить статью", 'url_name': 'add_page'},
@@ -20,11 +21,7 @@ data_db = [
     {'id': 3, 'title': 'Джулия Робертс', 'content': 'Биография Джулия Робертс', 'is_published': True},
 ]
 
-cats_db = [
-    {'id': 1, 'name': 'Актрисы'},
-    {'id': 2, 'name': 'Певицы'},
-    {'id': 3, 'name': 'Спортсменки'}
-]
+
 
 # Create your views here.
 def index(request):
@@ -61,11 +58,14 @@ def show_post(request, post_slug):
 
     return render(request, 'women/post.html', data)
 
-def show_category(request, cat_id):
-    data = {'title': 'Главная страница',
+def show_category(request, cat_slug):
+    category = get_object_or_404(Category, slug=cat_slug)
+    posts = Women.published.filter(cat_id=category.pk
+                                   )
+    data = {'title': f'Рубрика {category}',
            'menu': menu,
-           'posts': data_db,
-           'cat_selected': cat_id
+           'posts': posts,
+           'cat_selected': category.pk
            }
     return render(request, 'women/index.html', context=data)
 
