@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="4.5 Добавляем связь many-to-many (многие ко многим)">
-      <change afterPath="$PROJECT_DIR$/studingsite/women/templates/women/list_tags.html" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="4.6 Добавление тегов на сайт">
+      <change afterPath="$PROJECT_DIR$/studingsite/women/migrations/0008_husband_women_husband.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templatetags/women_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templatetags/women_tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732388445641</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="4.6 Добавление тегов на сайт">
+      <option name="closed" value="true" />
+      <created>1732642814937</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1732642814937</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +387,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.5 Отладка проекта Django в PyCharm" />
     <MESSAGE value="1.6 Динамические URL. Пользовательские конвертеры" />
     <MESSAGE value="1.8 Перенаправления (redirect). Функция reverse" />
     <MESSAGE value="1.8 Перенаправления (redirect). Функция reverse" />
@@ -408,6 +411,7 @@
     <MESSAGE value="4.3 ORM-команды для связи many-to-one" />
     <MESSAGE value="4.4 Отображение постов по рубрикам" />
     <MESSAGE value="4.5 Добавляем связь many-to-many (многие ко многим)" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.5 Добавляем связь many-to-many (многие ко многим)" />
+    <MESSAGE value="4.6 Добавление тегов на сайт" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.6 Добавление тегов на сайт" />
   </component>
 </project>
