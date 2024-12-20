@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="5.2 Методы выбора записей. Методы exists() и count()">
-      <change afterPath="$PROJECT_DIR$/studingsite/women/migrations/0009_husband_m_count.py" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="5.3 Класс F, Value и метод annotate()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734712525470</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="5.3 Класс F, Value и метод annotate()">
+      <option name="closed" value="true" />
+      <created>1734714207762</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1734714207762</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +417,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rename project" />
     <MESSAGE value="Введение в шаблоны (Django Template Language, DTL)" />
     <MESSAGE value="2.2 Передача данных (переменных) в шаблоны" />
     <MESSAGE value="2.3 Стандартные шаблонные фильтры" />
@@ -436,6 +441,7 @@
     <MESSAGE value="4.7 Связь one-to-one (один к одному)" />
     <MESSAGE value="5.1 ORM-команды с классом Q" />
     <MESSAGE value="5.2 Методы выбора записей. Методы exists() и count()" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.2 Методы выбора записей. Методы exists() и count()" />
+    <MESSAGE value="5.3 Класс F, Value и метод annotate()" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.3 Класс F, Value и метод annotate()" />
   </component>
 </project>
