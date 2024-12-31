@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="5.6 Оптимизация сайта с Django Debug Toolbar">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="6.1 Подключение админ-панели. Регистрация моделей">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735554168955</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="6.1 Подключение админ-панели. Регистрация моделей">
+      <option name="closed" value="true" />
+      <created>1735555089161</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1735555089161</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2.4 Теги шаблонов. Теги if и for" />
     <MESSAGE value="2.5 Шаблонный тег url" />
     <MESSAGE value="2.6 Наследование шаблонов. Тег include" />
     <MESSAGE value="2.7 Подключение статических файлов" />
@@ -469,6 +474,7 @@
     <MESSAGE value="5.4 Агрегирующие функции. Метод values()" />
     <MESSAGE value="5.5 Группировка и агрегирование. Вычисления на стороне СУБД" />
     <MESSAGE value="5.6 Оптимизация сайта с Django Debug Toolbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.6 Оптимизация сайта с Django Debug Toolbar" />
+    <MESSAGE value="6.1 Подключение админ-панели. Регистрация моделей" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.1 Подключение админ-панели. Регистрация моделей" />
   </component>
 </project>
