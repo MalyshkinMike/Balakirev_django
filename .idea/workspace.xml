@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="6.2 Настройка отображения списка статей">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="6.4 Панель поиска и панель фильтрации">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735632764995</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="6.4 Панель поиска и панель фильтрации">
+      <option name="closed" value="true" />
+      <created>1735643917715</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1735643917715</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2.6 Наследование шаблонов. Тег include" />
     <MESSAGE value="2.7 Подключение статических файлов" />
     <MESSAGE value="2.8 Пользовательские теги шаблонов" />
     <MESSAGE value="3.1 Что такое БД, SQL и ORM" />
@@ -483,6 +491,7 @@
     <MESSAGE value="5.6 Оптимизация сайта с Django Debug Toolbar" />
     <MESSAGE value="6.1 Подключение админ-панели. Регистрация моделей" />
     <MESSAGE value="6.2 Настройка отображения списка статей" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.2 Настройка отображения списка статей" />
+    <MESSAGE value="6.4 Панель поиска и панель фильтрации" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.4 Панель поиска и панель фильтрации" />
   </component>
 </project>
