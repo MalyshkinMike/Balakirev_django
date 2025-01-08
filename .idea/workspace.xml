@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="7.2 Использование форм не связанных с моделями">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="7.3 Отображение полей формы. Сохранение переданных данных в БД">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/addpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/addpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736341747289</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="7.3 Отображение полей формы. Сохранение переданных данных в БД">
+      <option name="closed" value="true" />
+      <created>1736346228481</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1736346228481</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.3 Понятие CRUD. Добавление записей в таблицу БД" />
     <MESSAGE value="3.5 Сортировка, изменение и удаление записей" />
     <MESSAGE value="3.5 Сортировка, изменение и удаление записей" />
     <MESSAGE value="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()" />
@@ -524,6 +530,7 @@
     <MESSAGE value="6.6 Настраиваем внешний вид админ-панели" />
     <MESSAGE value="7.1 Что такое HTML-формы. Отправка данных по GET и POST-запросам" />
     <MESSAGE value="7.2 Использование форм не связанных с моделями" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.2 Использование форм не связанных с моделями" />
+    <MESSAGE value="7.3 Отображение полей формы. Сохранение переданных данных в БД" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.3 Отображение полей формы. Сохранение переданных данных в БД" />
   </component>
 </project>
