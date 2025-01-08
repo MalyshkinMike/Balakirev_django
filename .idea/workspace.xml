@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="6.5 Настройка формы редактирования записей">
-      <change afterPath="$PROJECT_DIR$/studingsite/static/css/admin/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/templates/admin/base_site.html" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="6.6 Настраиваем внешний вид админ-панели">
+      <change afterPath="$PROJECT_DIR$/studingsite/women/templates/women/addpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736093904000</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="6.6 Настраиваем внешний вид админ-панели">
+      <option name="closed" value="true" />
+      <created>1736260190506</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1736260190506</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2.8 Пользовательские теги шаблонов" />
     <MESSAGE value="3.1 Что такое БД, SQL и ORM" />
     <MESSAGE value="3.2 Создание и запуск файлов миграций" />
     <MESSAGE value="3.3 Понятие CRUD. Добавление записей в таблицу БД" />
@@ -500,6 +506,7 @@
     <MESSAGE value="6.2 Настройка отображения списка статей" />
     <MESSAGE value="6.4 Панель поиска и панель фильтрации" />
     <MESSAGE value="6.5 Настройка формы редактирования записей" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.5 Настройка формы редактирования записей" />
+    <MESSAGE value="6.6 Настраиваем внешний вид админ-панели" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.6 Настраиваем внешний вид админ-панели" />
   </component>
 </project>

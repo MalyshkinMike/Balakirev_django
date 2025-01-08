@@ -33,7 +33,7 @@ def about(request):
     return render(request, 'women/about.html', {'title': 'О сайте', 'menu': menu})
 
 def addpage(request):
-    return HttpResponse("Добавление статьи")
+    return render(request, 'women/addpage.html', {'menu': menu, 'title': 'Добавление статьи'})
 
 def contact(request):
     return HttpResponse("Обратная связь")
