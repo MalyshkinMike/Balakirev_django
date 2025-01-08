@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="7.1 Что такое HTML-формы. Отправка данных по GET и POST-запросам">
-      <change afterPath="$PROJECT_DIR$/studingsite/women/forms.py" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="7.2 Использование форм не связанных с моделями">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/addpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/addpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
@@ -444,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736337268219</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="7.2 Использование форм не связанных с моделями">
+      <option name="closed" value="true" />
+      <created>1736341747289</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1736341747289</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.2 Создание и запуск файлов миграций" />
     <MESSAGE value="3.3 Понятие CRUD. Добавление записей в таблицу БД" />
     <MESSAGE value="3.5 Сортировка, изменение и удаление записей" />
     <MESSAGE value="3.5 Сортировка, изменение и удаление записей" />
@@ -516,6 +523,7 @@
     <MESSAGE value="6.5 Настройка формы редактирования записей" />
     <MESSAGE value="6.6 Настраиваем внешний вид админ-панели" />
     <MESSAGE value="7.1 Что такое HTML-формы. Отправка данных по GET и POST-запросам" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.1 Что такое HTML-формы. Отправка данных по GET и POST-запросам" />
+    <MESSAGE value="7.2 Использование форм не связанных с моделями" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.2 Использование форм не связанных с моделями" />
   </component>
 </project>
