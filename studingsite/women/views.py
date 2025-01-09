@@ -7,8 +7,8 @@ from django.urls import reverse
 from django.template.loader import render_to_string
 from django.template.defaultfilters import slugify
 from unicodedata import category
-
-from .forms import AddPostForm
+import uuid
+from .forms import AddPostForm, UploadFileForm
 from .models import Women, Category, TagPost
 
 menu = [{'title': "О сайте", 'url_name': 'about'},
@@ -30,8 +30,25 @@ def index(request):
             }
     return render(request, 'women/index.html', context=data)
 
+def handle_uploaded_file(f):
+    with open(f'uploads/{uuid.uuid4()} {f.name}', 'wb+') as dest:
+        for chunk in f.chunks():
+            dest.write(chunk)
+
 def about(request):
-    return render(request, 'women/about.html', {'title': 'О сайте', 'menu': menu})
+    if request.method == 'POST':
+        form = UploadFileForm(request.POST, request.FILES)
+        if form.is_valid():
+            handle_uploaded_file(form.cleaned_data['file'])
+    else:
+        form = UploadFileForm()
+
+    return render(request, 'women/about.html',
+                  {
+                      'title': 'О сайте',
+                      'menu': menu,
+                      'form': form
+                   })
 
 def addpage(request):
     if request.method == 'POST':
