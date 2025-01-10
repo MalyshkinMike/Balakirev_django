@@ -9,7 +9,7 @@ from django.template.defaultfilters import slugify
 from unicodedata import category
 import uuid
 from .forms import AddPostForm, UploadFileForm
-from .models import Women, Category, TagPost
+from .models import Women, Category, TagPost, UploadFiles
 
 menu = [{'title': "О сайте", 'url_name': 'about'},
         {'title': "Добавить статью", 'url_name': 'add_page'},
@@ -30,16 +30,17 @@ def index(request):
             }
     return render(request, 'women/index.html', context=data)
 
-def handle_uploaded_file(f):
-    with open(f'uploads/{uuid.uuid4()} {f.name}', 'wb+') as dest:
-        for chunk in f.chunks():
-            dest.write(chunk)
+# def handle_uploaded_file(f):
+#     with open(f'uploads/{uuid.uuid4()} {f.name}', 'wb+') as dest:
+#         for chunk in f.chunks():
+#             dest.write(chunk)
 
 def about(request):
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
-            handle_uploaded_file(form.cleaned_data['file'])
+            fp = UploadFiles(file=form.cleaned_data['file'])
+            fp.save()
     else:
         form = UploadFileForm()
 
@@ -52,7 +53,7 @@ def about(request):
 
 def addpage(request):
     if request.method == 'POST':
-        form =  AddPostForm(request.POST)
+        form =  AddPostForm(request.POST, request.FILES)
         if form.is_valid():
            # print(form.cleaned_data)
            #  try:
