@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="7.5 Формы связанные с моделями">
-      <change afterPath="$PROJECT_DIR$/studingsite/women/migrations/0010_uploadfiles_alter_category_options_and_more.py" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="7.7 Загрузка файлов с использованием классов моделей">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MalyshkinMike&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MalyshkinMike/Balakirev_django.git&quot;,
+    &quot;accountId&quot;: &quot;fb57e61d-990b-4bfb-959d-abc9f7e6520f&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -35,17 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.testsite.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Studing/JetBrainsProjects/pythonProject",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.testsite.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studing/JetBrainsProjects/pythonProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite" />
@@ -476,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736423354812</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="7.7 Загрузка файлов с использованием классов моделей">
+      <option name="closed" value="true" />
+      <created>1736509158576</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1736509158576</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()" />
     <MESSAGE value="4.1 Типы связей между моделями" />
     <MESSAGE value="4.1 Типы связей между моделями" />
     <MESSAGE value="4.2 Создание связи many-to-one (многие к одному)" />
@@ -548,6 +569,7 @@
     <MESSAGE value="7.3 Отображение полей формы. Сохранение переданных данных в БД" />
     <MESSAGE value="7.4 Валидация полей формы" />
     <MESSAGE value="7.5 Формы связанные с моделями" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.5 Формы связанные с моделями" />
+    <MESSAGE value="7.7 Загрузка файлов с использованием классов моделей" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.7 Загрузка файлов с использованием классов моделей" />
   </component>
 </project>
