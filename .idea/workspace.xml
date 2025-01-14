@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="7.8 Отображение изображений в HTML-документе и админ-панели">
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/anastasiya-eshli.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/andjelina-joli.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/ariana-grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/ariana-grande_I5j6hDB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/beionce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/ekaterina-guseva.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/jennifer-lourens.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/julia-roberts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/keti-perri.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/margo-robbi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/rianna.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/rianna_qZ3rB7H.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/shakira.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/photos/2023/09/11/uma-turman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/media/uploads_model/Екатерина_Гусева.jpg" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="8.1 Введение в CBV (Class Based Views). Классы View и TemplateView">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
@@ -62,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.testsite.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Studing/JetBrainsProjects/pythonProject/studingsite",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.testsite.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studing/JetBrainsProjects/pythonProject/studingsite&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite" />
@@ -126,22 +110,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00001" summary="first_file + pip install django">
-      <option name="closed" value="true" />
-      <created>1728312189720</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728312189720</updated>
-    </task>
-    <task id="LOCAL-00002" summary="first django app added">
-      <option name="closed" value="true" />
-      <created>1728404586124</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1728404586125</updated>
     </task>
     <task id="LOCAL-00003" summary="1.4 Маршрутизация и функции представления">
       <option name="closed" value="true" />
@@ -519,7 +487,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736593332898</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="8.1 Введение в CBV (Class Based Views). Классы View и TemplateView">
+      <option name="closed" value="true" />
+      <created>1736700227754</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1736700227755</updated>
+    </task>
+    <task id="LOCAL-00051" summary="8.1 Введение в CBV (Class Based Views). Классы View и TemplateView">
+      <option name="closed" value="true" />
+      <created>1736700240772</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736700240772</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4.1 Типы связей между моделями" />
     <MESSAGE value="4.2 Создание связи many-to-one (многие к одному)" />
     <MESSAGE value="4.3 ORM-команды для связи many-to-one" />
     <MESSAGE value="4.4 Отображение постов по рубрикам" />
@@ -591,6 +574,7 @@
     <MESSAGE value="7.5 Формы связанные с моделями" />
     <MESSAGE value="7.7 Загрузка файлов с использованием классов моделей" />
     <MESSAGE value="7.8 Отображение изображений в HTML-документе и админ-панели" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.8 Отображение изображений в HTML-документе и админ-панели" />
+    <MESSAGE value="8.1 Введение в CBV (Class Based Views). Классы View и TemplateView" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.1 Введение в CBV (Class Based Views). Классы View и TemplateView" />
   </component>
 </project>
