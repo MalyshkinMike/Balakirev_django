@@ -7,7 +7,7 @@ from django.urls import reverse, reverse_lazy
 from django.template.loader import render_to_string
 from django.template.defaultfilters import slugify
 from django.views import View
-from django.views.generic import TemplateView, ListView, DetailView, FormView
+from django.views.generic import TemplateView, ListView, DetailView, FormView, CreateView, UpdateView, DeleteView
 from unicodedata import category
 import uuid
 from .forms import AddPostForm, UploadFileForm
@@ -98,18 +98,36 @@ def about(request):
 #     }
 #     return render(request, 'women/addpage.html', data)
 
-class AddPage(FormView):
+class AddPage(CreateView):
     form_class = AddPostForm
+    # model = Women
+    # fields = ['title', 'slug', 'content', 'is_published']
     template_name = 'women/addpage.html'
-    success_url = reverse_lazy('home')
+    # success_url = reverse_lazy('home')
     extra_context = {
         'menu': menu,
         'title': 'Добавление статьи'
     }
 
-    def form_valid(self, form):
-        form.save()
-        return super().form_valid(form)
+
+class DeletePage(DeleteView):
+    model = Women
+    template_name = 'women/addpage.html'
+    success_url = reverse_lazy('home')
+    extra_context = {
+        'menu': menu,
+        'title': 'Удаление статьи'
+    }
+
+class UpdatePage(UpdateView):
+    model = Women
+    fields = ['title', 'content', 'photo', 'is_published', 'cat']
+    template_name = 'women/addpage.html'
+    success_url = reverse_lazy('home')
+    extra_context = {
+        'menu': menu,
+        'title': 'Редактирование статьи'
+    }
 
 # class AddPage(View):
 #     def get(self, request):
