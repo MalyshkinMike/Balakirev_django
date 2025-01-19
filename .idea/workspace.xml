@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="8.8 Пагинация с классом ListView">
-      <change afterPath="$PROJECT_DIR$/studingsite/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/views.py" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.1 Введение в авторизацию пользователей">
+      <change afterPath="$PROJECT_DIR$/studingsite/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -118,14 +112,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Введение в шаблоны (Django Template Language, DTL)">
-      <option name="closed" value="true" />
-      <created>1730543372191</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1730543372191</updated>
     </task>
     <task id="LOCAL-00011" summary="2.2 Передача данных (переменных) в шаблоны">
       <option name="closed" value="true" />
@@ -511,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737189534424</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="9.1 Введение в авторизацию пользователей">
+      <option name="closed" value="true" />
+      <created>1737285976364</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1737285976364</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -558,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.2 Методы выбора записей. Методы exists() и count()" />
     <MESSAGE value="5.3 Класс F, Value и метод annotate()" />
     <MESSAGE value="5.4 Агрегирующие функции. Метод values()" />
     <MESSAGE value="5.5 Группировка и агрегирование. Вычисления на стороне СУБД" />
@@ -583,6 +576,7 @@
     <MESSAGE value="8.6 Mixins как способ улучшения программного кода" />
     <MESSAGE value="8.7 Введение в пагинацию. Класс Paginator" />
     <MESSAGE value="8.8 Пагинация с классом ListView" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.8 Пагинация с классом ListView" />
+    <MESSAGE value="9.1 Введение в авторизацию пользователей" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.1 Введение в авторизацию пользователей" />
   </component>
 </project>
