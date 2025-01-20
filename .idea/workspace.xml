@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.5 Декоратор login_required и класс LoginRequiredMixin">
-      <change afterPath="$PROJECT_DIR$/studingsite/users/templates/users/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/templates/users/register_done.html" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.6 Регистрация пользователей через функции представления">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/templates/users/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/views.py" afterDir="false" />
     </list>
@@ -115,14 +113,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00015" summary="2.6 Наследование шаблонов. Тег include">
-      <option name="closed" value="true" />
-      <created>1730889940845</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1730889940845</updated>
     </task>
     <task id="LOCAL-00016" summary="2.7 Подключение статических файлов">
       <option name="closed" value="true" />
@@ -508,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737356180009</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="9.6 Регистрация пользователей через функции представления">
+      <option name="closed" value="true" />
+      <created>1737359776106</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1737359776106</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.1 Подключение админ-панели. Регистрация моделей" />
     <MESSAGE value="6.2 Настройка отображения списка статей" />
     <MESSAGE value="6.4 Панель поиска и панель фильтрации" />
     <MESSAGE value="6.5 Настройка формы редактирования записей" />
@@ -580,6 +577,7 @@
     <MESSAGE value="9.3 Шаблонные контекстные процессоры" />
     <MESSAGE value="9.4 Классы LoginView, LogoutView и AuthenticationForm" />
     <MESSAGE value="9.5 Декоратор login_required и класс LoginRequiredMixin" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.5 Декоратор login_required и класс LoginRequiredMixin" />
+    <MESSAGE value="9.6 Регистрация пользователей через функции представления" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.6 Регистрация пользователей через функции представления" />
   </component>
 </project>
