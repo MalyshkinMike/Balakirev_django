@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.3 Шаблонные контекстные процессоры">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.4 Классы LoginView, LogoutView и AuthenticationForm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/static/css/admin/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/static/css/admin/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/static/women/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/static/women/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,14 +113,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00013" summary="2.4 Теги шаблонов. Теги if и for">
-      <option name="closed" value="true" />
-      <created>1730828033274</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1730828033274</updated>
     </task>
     <task id="LOCAL-00014" summary="2.5 Шаблонный тег url">
       <option name="closed" value="true" />
@@ -510,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737288520643</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="9.4 Классы LoginView, LogoutView и AuthenticationForm">
+      <option name="closed" value="true" />
+      <created>1737291354689</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1737291354689</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.5 Группировка и агрегирование. Вычисления на стороне СУБД" />
     <MESSAGE value="5.6 Оптимизация сайта с Django Debug Toolbar" />
     <MESSAGE value="6.1 Подключение админ-панели. Регистрация моделей" />
     <MESSAGE value="6.2 Настройка отображения списка статей" />
@@ -582,6 +577,7 @@
     <MESSAGE value="9.1 Введение в авторизацию пользователей" />
     <MESSAGE value="9.2 Авторизация пользователей. Функции authenticate() и login()" />
     <MESSAGE value="9.3 Шаблонные контекстные процессоры" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.3 Шаблонные контекстные процессоры" />
+    <MESSAGE value="9.4 Классы LoginView, LogoutView и AuthenticationForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.4 Классы LoginView, LogoutView и AuthenticationForm" />
   </component>
 </project>
