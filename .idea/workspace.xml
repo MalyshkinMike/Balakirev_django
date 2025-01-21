@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.9 Классы PasswordChangeView и PasswordChangeDoneView" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.10 Восстановление пароля. Идея алгоритма">
+      <change afterPath="$PROJECT_DIR$/studingsite/users/templates/users/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/users/templates/users/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/users/templates/users/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/users/templates/users/password_reset_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/users/templates/users/password_reset_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,14 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00019" summary="3.1 Что такое БД, SQL и ORM">
-      <option name="closed" value="true" />
-      <created>1731255985760</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1731255985760</updated>
     </task>
     <task id="LOCAL-00020" summary="3.2 Создание и запуск файлов миграций">
       <option name="closed" value="true" />
@@ -499,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737385845796</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="9.10 Восстановление пароля. Идея алгоритма">
+      <option name="closed" value="true" />
+      <created>1737398270733</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1737398270733</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.6 Настраиваем внешний вид админ-панели" />
     <MESSAGE value="7.1 Что такое HTML-формы. Отправка данных по GET и POST-запросам" />
     <MESSAGE value="7.2 Использование форм не связанных с моделями" />
     <MESSAGE value="7.3 Отображение полей формы. Сохранение переданных данных в БД" />
@@ -571,6 +581,7 @@
     <MESSAGE value="9.7 Класс UserCreationForm" />
     <MESSAGE value="9.8 Авторизация через email. Профиль пользователя" />
     <MESSAGE value="9.9 Классы PasswordChangeView и PasswordChangeDoneView" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.9 Классы PasswordChangeView и PasswordChangeDoneView" />
+    <MESSAGE value="9.10 Восстановление пароля. Идея алгоритма" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.10 Восстановление пароля. Идея алгоритма" />
   </component>
 </project>
