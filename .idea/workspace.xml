@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.12 Настройка почтового сервера по SMTP-протоколу">
-      <change afterPath="$PROJECT_DIR$/studingsite/media/users/default.png" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.13 Расширение модели User. Класс AbstractUser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0002_alter_women_options_women_slug_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0003_alter_women_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0004_alter_women_is_published.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0005_category_women_cat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0006_alter_women_cat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0007_tagpost_alter_women_cat_women_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0008_husband_women_husband.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0009_husband_m_count.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0010_uploadfiles_alter_category_options_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0011_women_photo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/migrations/0012_women_author.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.testsite.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Studing/JetBrainsProjects/pythonProject/studingsite/media/users",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.testsite.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studing/JetBrainsProjects/pythonProject/studingsite/media/users&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\media\users" />
@@ -127,14 +110,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00021" summary="3.3 Понятие CRUD. Добавление записей в таблицу БД">
-      <option name="closed" value="true" />
-      <created>1731355538985</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1731355538985</updated>
     </task>
     <task id="LOCAL-00022" summary="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()">
       <option name="closed" value="true" />
@@ -520,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737468865320</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="9.13 Расширение модели User. Класс AbstractUser">
+      <option name="closed" value="true" />
+      <created>1737630896902</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1737630896902</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7.2 Использование форм не связанных с моделями" />
     <MESSAGE value="7.3 Отображение полей формы. Сохранение переданных данных в БД" />
     <MESSAGE value="7.4 Валидация полей формы" />
     <MESSAGE value="7.5 Формы связанные с моделями" />
@@ -592,6 +574,7 @@
     <MESSAGE value="9.9 Классы PasswordChangeView и PasswordChangeDoneView" />
     <MESSAGE value="9.10 Восстановление пароля. Идея алгоритма" />
     <MESSAGE value="9.12 Настройка почтового сервера по SMTP-протоколу" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.12 Настройка почтового сервера по SMTP-протоколу" />
+    <MESSAGE value="9.13 Расширение модели User. Класс AbstractUser" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.13 Расширение модели User. Класс AbstractUser" />
   </component>
 </project>
