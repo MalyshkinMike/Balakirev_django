@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.14 Разрешения и группы (Permissions &amp; Groups)" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.14 Разрешения и группы (Permissions &amp; Groups)">
+      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/media/users/default.png" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/media/users/default.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,8 +59,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\media\users" />
-      <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\static\women\css" />
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite" />
+      <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\static\women\css" />
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\templates" />
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\templates\women" />
     </key>
@@ -106,22 +109,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00023" summary="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()">
-      <option name="closed" value="true" />
-      <created>1732213291164</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1732213291164</updated>
-    </task>
-    <task id="LOCAL-00024" summary="3.7 Создание пользовательского менеджера модели">
-      <option name="closed" value="true" />
-      <created>1732214684840</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1732214684840</updated>
     </task>
     <task id="LOCAL-00025" summary="3.7 Создание пользовательского менеджера модели">
       <option name="closed" value="true" />
@@ -499,7 +486,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737815933873</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="9.14 Разрешения и группы (Permissions &amp; Groups)">
+      <option name="closed" value="true" />
+      <created>1737816011142</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1737816011142</updated>
+    </task>
+    <task id="LOCAL-00073" summary="9.14 Разрешения и группы (Permissions &amp; Groups)">
+      <option name="closed" value="true" />
+      <created>1737816061077</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1737816061077</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
