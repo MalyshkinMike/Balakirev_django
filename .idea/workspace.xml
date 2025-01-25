@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.13 Расширение модели User. Класс AbstractUser">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/templates/women/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/templates/women/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.14 Разрешения и группы (Permissions &amp; Groups)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,14 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00022" summary="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()">
-      <option name="closed" value="true" />
-      <created>1732213196762</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1732213196762</updated>
     </task>
     <task id="LOCAL-00023" summary="3.6 Слаги (slug) в URL-адресах. Метод get_absolute_url()">
       <option name="closed" value="true" />
@@ -503,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737630896902</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="9.14 Разрешения и группы (Permissions &amp; Groups)">
+      <option name="closed" value="true" />
+      <created>1737815933873</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1737815933873</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7.3 Отображение полей формы. Сохранение переданных данных в БД" />
     <MESSAGE value="7.4 Валидация полей формы" />
     <MESSAGE value="7.5 Формы связанные с моделями" />
     <MESSAGE value="7.7 Загрузка файлов с использованием классов моделей" />
@@ -575,6 +570,7 @@
     <MESSAGE value="9.10 Восстановление пароля. Идея алгоритма" />
     <MESSAGE value="9.12 Настройка почтового сервера по SMTP-протоколу" />
     <MESSAGE value="9.13 Расширение модели User. Класс AbstractUser" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.13 Расширение модели User. Класс AbstractUser" />
+    <MESSAGE value="9.14 Разрешения и группы (Permissions &amp; Groups)" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.14 Разрешения и группы (Permissions &amp; Groups)" />
   </component>
 </project>
