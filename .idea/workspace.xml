@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="9.14 Разрешения и группы (Permissions &amp; Groups)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/media/users/default.png" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/media/users/default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,14 +110,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00025" summary="3.7 Создание пользовательского менеджера модели">
-      <option name="closed" value="true" />
-      <created>1732214830191</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1732214830191</updated>
     </task>
     <task id="LOCAL-00026" summary="4.2 Создание связи many-to-one (многие к одному)">
       <option name="closed" value="true" />
@@ -502,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737816061077</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="9.14 Разрешения и группы (Permissions &amp; Groups)">
+      <option name="closed" value="true" />
+      <created>1737817112621</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1737817112621</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
