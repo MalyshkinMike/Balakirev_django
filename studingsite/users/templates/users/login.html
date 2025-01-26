@@ -17,6 +17,9 @@
 </form>
 
 <hr>
-<p><a href="{% url 'social:begin' 'github' %}"><img src="/media/social-auth/github.png" width="65" height="65"></a></p>
+<p>
+    <a href="{% url 'social:begin' 'github' %}"><img src="/media/social-auth/github.png" width="65" height="65"></a>
+    <a href="{% url 'social:begin' 'vk-oauth2' %}"><img src="/media/social-auth/vk.png" width="65" height="65"></a>
+</p>
 
 {% endblock %}

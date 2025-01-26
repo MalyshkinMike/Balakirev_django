@@ -149,6 +149,7 @@ LOGIN_URL = 'users:login'
 
 AUTHENTICATION_BACKENDS = [
     'social_core.backends.github.GithubOAuth2',
+    'social_core.backends.vk.VKOAuth2',
     'django.contrib.auth.backends.ModelBackend',
     'users.authentication.EmailAuthBackend'
 ]
@@ -172,6 +173,9 @@ DEFAULT_USER_IMAGE = MEDIA_URL + 'users/default.png'
 
 SOCIAL_AUTH_GITHUB_KEY = 'Ov23liIc9K1IIsRhPdZ8'
 SOCIAL_AUTH_GITHUB_SECRET = 'df3186463902f0c821935f965d473529773265ea'
+SOCIAL_AUTH_VK_OAUTH2_KEY = '52967723'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = '9GAvx3goclkgKlZkdITL'
+SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['email']
 
 SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.social_auth.social_details',
@@ -185,3 +189,4 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.social_auth.load_extra_data',
     'social_core.pipeline.user.user_details',
 )
+
