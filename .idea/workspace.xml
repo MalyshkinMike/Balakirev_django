@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="10.1 Протокол OAuth 2.0. Установка пакета Python-Social-Auth">
-      <change afterPath="$PROJECT_DIR$/studingsite/media/social-auth/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/users/pipeline.py" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="10.2 GitHub-аутентификация">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/templates/users/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Studing/JetBrainsProjects/pythonProject/studingsite/media/social-auth",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,7 +69,30 @@
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\templates\women" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.testsite https">
+    <configuration name="testsite https" type="PythonConfigurationType" factoryName="Python">
+      <module name="django_stepik" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pythonProject) (2)" />
+      <option name="WORKING_DIRECTORY" value="D:\Studing\JetBrainsProjects\pythonProject\studingsite" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/studingsite/manage.py" />
+      <option name="PARAMETERS" value="runserver_plus --cert-file cert.crt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testsite" type="PythonConfigurationType" factoryName="Python">
       <module name="django_stepik" />
       <option name="ENV_FILES" value="" />
@@ -98,6 +116,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.testsite" />
+      <item itemvalue="Python.testsite https" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,14 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00027" summary="4.3 ORM-команды для связи many-to-one">
-      <option name="closed" value="true" />
-      <created>1732377031484</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1732377031484</updated>
     </task>
     <task id="LOCAL-00028" summary="4.4 Отображение постов по рубрикам">
       <option name="closed" value="true" />
@@ -507,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737818915965</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="10.2 GitHub-аутентификация">
+      <option name="closed" value="true" />
+      <created>1737911984342</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1737911984343</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -554,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7.5 Формы связанные с моделями" />
     <MESSAGE value="7.7 Загрузка файлов с использованием классов моделей" />
     <MESSAGE value="7.8 Отображение изображений в HTML-документе и админ-панели" />
     <MESSAGE value="8.1 Введение в CBV (Class Based Views). Классы View и TemplateView" />
@@ -579,6 +600,7 @@
     <MESSAGE value="9.13 Расширение модели User. Класс AbstractUser" />
     <MESSAGE value="9.14 Разрешения и группы (Permissions &amp; Groups)" />
     <MESSAGE value="10.1 Протокол OAuth 2.0. Установка пакета Python-Social-Auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.1 Протокол OAuth 2.0. Установка пакета Python-Social-Auth" />
+    <MESSAGE value="10.2 GitHub-аутентификация" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.2 GitHub-аутентификация" />
   </component>
 </project>
