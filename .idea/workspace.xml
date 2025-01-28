@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="10.4 Авторизация через ВКонтакте">
-      <change afterPath="$PROJECT_DIR$/studingsite/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/fixtures/women_women.json" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="11.1 Работа с Django Fixtures">
+      <change afterPath="$PROJECT_DIR$/studingsite/temp/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/temp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,7 @@
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\temp" />
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\studingsite" />
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\templates\women" />
     </key>
@@ -139,14 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00030" summary="4.6 Добавление тегов на сайт">
-      <option name="closed" value="true" />
-      <created>1732642814937</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1732642814937</updated>
     </task>
     <task id="LOCAL-00031" summary="4.7 Связь one-to-one (один к одному)">
       <option name="closed" value="true" />
@@ -532,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737914423698</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="11.1 Работа с Django Fixtures">
+      <option name="closed" value="true" />
+      <created>1738047166427</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1738047166427</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8.1 Введение в CBV (Class Based Views). Классы View и TemplateView" />
     <MESSAGE value="8.2 Класс ListView" />
     <MESSAGE value="8.3 Класс DetailView" />
     <MESSAGE value="8.4 Класс FormView" />
@@ -604,6 +603,7 @@
     <MESSAGE value="10.2 GitHub-аутентификация" />
     <MESSAGE value="10.3 Добавляем поддержку https протокола и домен sitewomen.ru" />
     <MESSAGE value="10.4 Авторизация через ВКонтакте" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.4 Авторизация через ВКонтакте" />
+    <MESSAGE value="11.1 Работа с Django Fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.1 Работа с Django Fixtures" />
   </component>
 </project>
