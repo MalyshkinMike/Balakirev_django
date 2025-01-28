@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="10.3 Добавляем поддержку https протокола и домен sitewomen.ru">
-      <change afterPath="$PROJECT_DIR$/studingsite/media/social-auth/vk.png" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="10.4 Авторизация через ВКонтакте">
+      <change afterPath="$PROJECT_DIR$/studingsite/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studingsite/women/fixtures/women_women.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/temp/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.testsite https.executor": "Run",
-    "Python.testsite.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Studing/JetBrainsProjects/pythonProject/studingsite/media/social-auth",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.testsite https.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testsite.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studing/JetBrainsProjects/pythonProject/studingsite/media/social-auth&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\media\social-auth" />
@@ -140,14 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00029" summary="4.5 Добавляем связь many-to-many (многие ко многим)">
-      <option name="closed" value="true" />
-      <created>1732388445641</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1732388445641</updated>
     </task>
     <task id="LOCAL-00030" summary="4.6 Добавление тегов на сайт">
       <option name="closed" value="true" />
@@ -533,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737912980303</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="10.4 Авторизация через ВКонтакте">
+      <option name="closed" value="true" />
+      <created>1737914423698</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1737914423698</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7.8 Отображение изображений в HTML-документе и админ-панели" />
     <MESSAGE value="8.1 Введение в CBV (Class Based Views). Классы View и TemplateView" />
     <MESSAGE value="8.2 Класс ListView" />
     <MESSAGE value="8.3 Класс DetailView" />
@@ -605,6 +603,7 @@
     <MESSAGE value="10.1 Протокол OAuth 2.0. Установка пакета Python-Social-Auth" />
     <MESSAGE value="10.2 GitHub-аутентификация" />
     <MESSAGE value="10.3 Добавляем поддержку https протокола и домен sitewomen.ru" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.3 Добавляем поддержку https протокола и домен sitewomen.ru" />
+    <MESSAGE value="10.4 Авторизация через ВКонтакте" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.4 Авторизация через ВКонтакте" />
   </component>
 </project>
