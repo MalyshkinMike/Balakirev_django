@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'women.apps.WomenConfig',
     'users',
     'social_django',
-    'debug_toolbar'
+    'debug_toolbar',
+    'captcha'
 ]
 
 MIDDLEWARE = [

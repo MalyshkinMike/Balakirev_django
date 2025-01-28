@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="11.1 Работа с Django Fixtures">
-      <change afterPath="$PROJECT_DIR$/studingsite/temp/db.sqlite3" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="11.2 Подключаем PostgreSQL к проекту">
+      <change afterPath="$PROJECT_DIR$/studingsite/women/templates/women/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,7 +74,7 @@
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\templates\women" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testsite https">
+  <component name="RunManager" selected="Python.testsite">
     <configuration name="testsite https" type="PythonConfigurationType" factoryName="Python">
       <module name="django_stepik" />
       <option name="ENV_FILES" value="" />
@@ -139,14 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00031" summary="4.7 Связь one-to-one (один к одному)">
-      <option name="closed" value="true" />
-      <created>1734540699591</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1734540699591</updated>
     </task>
     <task id="LOCAL-00032" summary="5.1 ORM-команды с классом Q">
       <option name="closed" value="true" />
@@ -532,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738047166427</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="11.2 Подключаем PostgreSQL к проекту">
+      <option name="closed" value="true" />
+      <created>1738049257253</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1738049257253</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8.2 Класс ListView" />
     <MESSAGE value="8.3 Класс DetailView" />
     <MESSAGE value="8.4 Класс FormView" />
     <MESSAGE value="8.5 Классы CreateView и UpdateView + DeleteView" />
@@ -604,6 +605,7 @@
     <MESSAGE value="10.3 Добавляем поддержку https протокола и домен sitewomen.ru" />
     <MESSAGE value="10.4 Авторизация через ВКонтакте" />
     <MESSAGE value="11.1 Работа с Django Fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.1 Работа с Django Fixtures" />
+    <MESSAGE value="11.2 Подключаем PostgreSQL к проекту" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.2 Подключаем PostgreSQL к проекту" />
   </component>
 </project>
