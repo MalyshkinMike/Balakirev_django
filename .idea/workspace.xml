@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="12.2 Использование БД в unittest фреймворка Django">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="12.3 Тестирование формы регистрации">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -30,6 +35,9 @@
     &quot;assignee&quot;: &quot;MalyshkinMike&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="fb57e61d-990b-4bfb-959d-abc9f7e6520f" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/MalyshkinMike/Balakirev_django.git&quot;,
@@ -56,7 +64,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Studing/JetBrainsProjects/pythonProject/studingsite/media/social-auth",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -188,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00038" summary="6.1 Подключение админ-панели. Регистрация моделей">
-      <option name="closed" value="true" />
-      <created>1735555089161</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1735555089161</updated>
     </task>
     <task id="LOCAL-00039" summary="6.2 Настройка отображения списка статей">
       <option name="closed" value="true" />
@@ -581,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738260045986</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="12.3 Тестирование формы регистрации">
+      <option name="closed" value="true" />
+      <created>1738261071483</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1738261071483</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9.1 Введение в авторизацию пользователей" />
     <MESSAGE value="9.2 Авторизация пользователей. Функции authenticate() и login()" />
     <MESSAGE value="9.3 Шаблонные контекстные процессоры" />
     <MESSAGE value="9.4 Классы LoginView, LogoutView и AuthenticationForm" />
@@ -653,7 +660,8 @@
     <MESSAGE value="11.6 Добавление карты сайта (sitemap)" />
     <MESSAGE value="12.1 Первые тесты с Django unittest" />
     <MESSAGE value="12.2 Использование БД в unittest фреймворка Django" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.2 Использование БД в unittest фреймворка Django" />
+    <MESSAGE value="12.3 Тестирование формы регистрации" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.3 Тестирование формы регистрации" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
