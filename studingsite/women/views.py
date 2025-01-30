@@ -10,7 +10,7 @@ from django.template.defaultfilters import slugify, title
 from django.views import View
 from django.views.generic import TemplateView, ListView, DetailView, FormView, CreateView, UpdateView, DeleteView
 from unicodedata import category
-import uuid
+from django.core.cache import cache
 from .forms import AddPostForm, UploadFileForm, ContactForm
 from .models import Women, Category, TagPost, UploadFiles
 from .utils import DataMixin
@@ -26,7 +26,11 @@ class WomenHome(DataMixin, ListView):
 
 
     def get_queryset(self):
-        return Women.published.all().select_related('cat')
+        w_lst = cache.get('women_posts')
+        if not w_lst:
+            w_lst = Women.published.all().select_related('cat')
+            cache.set('women_posts', w_lst, 60)
+        return w_lst
 
 
 @login_required

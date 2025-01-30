@@ -14,7 +14,8 @@ from pathlib import Path
 
 from django.conf.global_settings import STATICFILES_DIRS, MEDIA_ROOT, MEDIA_URL, LOGIN_REDIRECT_URL, \
     LOGOUT_REDIRECT_URL, AUTHENTICATION_BACKENDS, EMAIL_BACKEND, EMAIL_HOST_PASSWORD, EMAIL_HOST, EMAIL_PORT, \
-    EMAIL_HOST_USER, EMAIL_USE_SSL, DEFAULT_FROM_EMAIL, SERVER_EMAIL, AUTH_USER_MODEL
+    EMAIL_HOST_USER, EMAIL_USE_SSL, DEFAULT_FROM_EMAIL, SERVER_EMAIL, AUTH_USER_MODEL, CACHE_MIDDLEWARE_ALIAS, \
+    CACHE_MIDDLEWARE_SECONDS, CACHE_MIDDLEWARE_KEY_PREFIX
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -54,15 +55,21 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
+#    "django.middleware.cache.UpdateCacheMiddleware",
+    "django.middleware.common.CommonMiddleware",
+#    "django.middleware.cache.FetchFromCacheMiddleware",
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware'
 ]
+
+# CACHE_MIDDLEWARE_ALIAS = 'default'
+# CACHE_MIDDLEWARE_SECONDS = 10
+# CACHE_MIDDLEWARE_KEY_PREFIX = 'sitewomen'
 
 
 ROOT_URLCONF = 'studingsite.urls'
@@ -109,8 +116,9 @@ DATABASES = {
 
 CACHES = {
     "default": {
-        "BACKEND": "django.core.cache.backends.redis.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379",
+         'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+#        "BACKEND": "django.core.cache.backends.redis.RedisCache",
+#        "LOCATION": "redis://127.0.0.1:6379",
     }
 }
 # Password validation

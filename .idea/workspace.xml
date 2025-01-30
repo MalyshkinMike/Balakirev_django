@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="11.3 Использование капчи (Captcha)">
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="11.4 Установка Redis для кэширования данных">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/studingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/studingsite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00033" summary="5.2 Методы выбора записей. Методы exists() и count()">
-      <option name="closed" value="true" />
-      <created>1734712525470</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1734712525470</updated>
     </task>
     <task id="LOCAL-00034" summary="5.3 Класс F, Value и метод annotate()">
       <option name="closed" value="true" />
@@ -530,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738070771715</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="11.4 Установка Redis для кэширования данных">
+      <option name="closed" value="true" />
+      <created>1738246066736</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1738246066736</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8.4 Класс FormView" />
     <MESSAGE value="8.5 Классы CreateView и UpdateView + DeleteView" />
     <MESSAGE value="8.6 Mixins как способ улучшения программного кода" />
     <MESSAGE value="8.7 Введение в пагинацию. Класс Paginator" />
@@ -602,6 +603,23 @@
     <MESSAGE value="11.1 Работа с Django Fixtures" />
     <MESSAGE value="11.2 Подключаем PostgreSQL к проекту" />
     <MESSAGE value="11.3 Использование капчи (Captcha)" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.3 Использование капчи (Captcha)" />
+    <MESSAGE value="11.4 Установка Redis для кэширования данных" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.4 Установка Redis для кэширования данных" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/studingsite/women/views.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/studingsite/women/utils.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
