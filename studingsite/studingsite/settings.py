@@ -51,8 +51,12 @@ INSTALLED_APPS = [
     'users',
     'social_django',
     'debug_toolbar',
-    'captcha'
+    'captcha',
+    'django.contrib.sites',
+    'django.contrib.sitemaps'
 ]
+
+
 
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
@@ -212,3 +216,4 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.user.user_details',
 )
 
+SITE_ID = 1

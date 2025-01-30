@@ -18,16 +18,26 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
+from django.views.decorators.cache import cache_page
+
+from women.sitemaps import PostSiteMap, CategorySiteMap
 from women.views import page_not_found
 from debug_toolbar.toolbar import debug_toolbar_urls
 
+from django.contrib.sitemaps.views import sitemap
+
+sitemaps = {
+    'posts': PostSiteMap,
+    'cats': CategorySiteMap
+}
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('women.urls')),
     path('users/', include('users.urls', namespace='users')),
     path('social-auth/', include('social_django.urls', namespace='social')),
-    path('captcha/', include('captcha.urls'))
+    path('captcha/', include('captcha.urls')),
+    path('sitemap.xml', cache_page(86400)(sitemap), {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap')
 ] + debug_toolbar_urls()
 
 if settings.DEBUG:
