@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="12.1 Первые тесты с Django unittest">
-      <change afterPath="$PROJECT_DIR$/studingsite/women/fixtures/women_category.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/fixtures/women_husband.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studingsite/women/fixtures/women_tagpost.json" afterDir="false" />
+    <list default="true" id="a93e6408-1360-4a4f-a1a7-b4ec97e596e7" name="Changes" comment="12.2 Использование БД в unittest фреймворка Django">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/fixtures/women_women.json" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/fixtures/women_women.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studingsite/women/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/women/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studingsite/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/studingsite/users/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.GetPagesTestCase.executor": "Run",
+    "Python.RegisterUserTestCase.executor": "Run",
     "Python.testsite https.executor": "Run",
     "Python.testsite.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,7 +73,7 @@
       <recent name="D:\Studing\JetBrainsProjects\pythonProject\studingsite\women\templates\women" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GetPagesTestCase">
+  <component name="RunManager" selected="Python.RegisterUserTestCase">
     <configuration name="GetPagesTestCase" type="PythonConfigurationType" factoryName="Python">
       <module name="django_stepik" />
       <option name="ENV_FILES" value="" />
@@ -93,6 +90,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/studingsite/manage.py" />
       <option name="PARAMETERS" value="test women.tests.GetPagesTestCase" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RegisterUserTestCase" type="PythonConfigurationType" factoryName="Python">
+      <module name="django_stepik" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pythonProject) (2)" />
+      <option name="WORKING_DIRECTORY" value="D:\Studing\JetBrainsProjects\pythonProject\studingsite" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/studingsite/manage.py" />
+      <option name="PARAMETERS" value="test users.tests.RegisterUserTestCase" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -149,6 +169,7 @@
     <list>
       <item itemvalue="Python.testsite" />
       <item itemvalue="Python.GetPagesTestCase" />
+      <item itemvalue="Python.RegisterUserTestCase" />
       <item itemvalue="Python.testsite https" />
     </list>
   </component>
@@ -167,14 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728311765644</updated>
-    </task>
-    <task id="LOCAL-00037" summary="5.6 Оптимизация сайта с Django Debug Toolbar">
-      <option name="closed" value="true" />
-      <created>1735554168955</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1735554168955</updated>
     </task>
     <task id="LOCAL-00038" summary="6.1 Подключение админ-панели. Регистрация моделей">
       <option name="closed" value="true" />
@@ -560,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738259111177</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="12.2 Использование БД в unittest фреймворка Django">
+      <option name="closed" value="true" />
+      <created>1738260045986</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1738260045986</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8.8 Пагинация с классом ListView" />
     <MESSAGE value="9.1 Введение в авторизацию пользователей" />
     <MESSAGE value="9.2 Авторизация пользователей. Функции authenticate() и login()" />
     <MESSAGE value="9.3 Шаблонные контекстные процессоры" />
@@ -632,7 +652,8 @@
     <MESSAGE value="11.5 Кэширование страниц сайта&#10;эширования данных" />
     <MESSAGE value="11.6 Добавление карты сайта (sitemap)" />
     <MESSAGE value="12.1 Первые тесты с Django unittest" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.1 Первые тесты с Django unittest" />
+    <MESSAGE value="12.2 Использование БД в unittest фреймворка Django" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.2 Использование БД в unittest фреймворка Django" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
